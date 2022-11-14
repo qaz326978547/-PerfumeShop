@@ -1,0 +1,12 @@
+.footer{
+  ul{
+    margin-right: -18px;
+    a{
+      display: block;
+      padding: 28px 18px;
+      &:hover{
+        color: $warning !important;
+      }
+    }
+  }
+}

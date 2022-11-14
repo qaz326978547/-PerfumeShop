@@ -1,0 +1,115 @@
+.logo{
+  display: block;
+  width: 128px;
+  height: 38px;
+  background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfume.png');
+  @include hide-text;
+}
+.banner{
+  background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index1.jpg');
+  height: 480px;
+}
+@include pad{
+  .banner{
+    height: 870px;
+  }
+}
+.product-img-gabrielle-chanel{
+  &::after{
+    display: block;
+    content: '';
+    background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index2.jpg');
+    @include bg-cover;
+  }
+}
+.product-img-gingembre{
+  &::after{
+    display: block;
+    content: '';
+    background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index3.png');
+    @include bg-cover;
+  }
+}
+.product-img-n5{
+  &::after{
+    display: block;
+    content: '';
+    background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index4.jpg');
+    @include bg-cover;
+  }
+}
+.product-img-height::after{
+  height: 350px;
+}
+@include pad{
+  .product-img-height::after{
+    height: 555px;
+  }
+}
+.product-img-maintenance{
+  &::after{
+    display: block;
+    content: '';
+    background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index5.jpg');
+    height: 680px;
+    @include bg-cover;
+  }
+}
+@include pad{
+  .product-img-maintenance::after{
+    height: 1080px;
+  }
+}
+.produt-img-poppy{
+  &::after{
+    display: block;
+    content: '';
+    background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index6.jpg');
+    height: 350px;
+    @include bg-cover;
+  }
+}
+.produt-img-body-wash{
+  &::after{
+    display: block;
+    content: '';
+    background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index7.jpg');
+    height: 350px;
+    @include bg-cover;
+  }
+}
+.produt-img-capsule{
+  background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index8.jpg');
+  height: 350px;
+  @include bg-cover;
+  &::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    top:0;
+    bottom:0;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: 1;
+  }
+}
+@include pad{
+  .produt-img-poppy::after,.produt-img-body-wash::after,.produt-img-capsule{
+    height: 540px;
+  }
+}
+.product-img-recycling{
+  &::after{
+    display: block;
+    content: '';
+    background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index9.jpg');
+    height: 520px;
+    @include bg-cover;
+  }
+}
+.subscribe-banner{
+  background-image: url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index10.jpg');
+  height: 600px;
+  @include bg-cover;
+}

@@ -1,0 +1,67 @@
+.bg-cover{
+  @include bg-cover;
+}
+.bg-position-y-bottom{
+  background-position-y: bottom;
+}
+.border-radius-6{
+  border-radius: 30px;
+}
+.w-33{
+  width: 33.33%;
+}
+.w-66{
+  width: 66.66%;
+}
+.w-80{
+  width: 80%;
+}
+.font-weight-less-bold{
+  font-weight: 600;
+}
+.font-weight-medium{
+  font-weight: 500;
+}
+.text-decoration-line-through{
+  text-decoration: line-through;
+}
+.zindex-text{
+  z-index: $zindex-text;
+}
+.border-width-md{
+  border-width: 2px !important;
+}
+.font-size-sm{
+  font-size: 14px;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.h1 { font-size: $h1-font-size; }
+.h2 { font-size: $h2-font-size; }
+.h3 { font-size: $h3-font-size; }
+.h4 { font-size: $h4-font-size; }
+.h5 { font-size: $h5-font-size; }
+.h6 { font-size: $h6-font-size; }
+
+@media (min-width: 768px) {
+  .h1-md { font-size: $h1-font-size; }
+  .h2-md { font-size: $h2-font-size; }
+  .h3-md { font-size: $h3-font-size; }
+  .h4-md { font-size: $h4-font-size; }
+  .h5-md { font-size: $h5-font-size; }
+  .h6-md { font-size: $h6-font-size; }
+}
+
+.height-auto{
+  height: auto;
+}
+
+/* 隱藏元素 */
+// [data-aos] {
+//   visibility: hidden;
+// }
+// [data-aos].animate__animated {
+//   visibility: visible;
+// }    

@@ -1,0 +1,30 @@
+.header .navbar-nav{
+  .nav-item:not(:last-child){
+    border-bottom: 1px solid #fff;
+  }
+  .nav-link{
+    color: $white;
+    background-color: #707070;
+    &:hover{
+      background-color: #fff;
+    }
+  }
+}
+.mobile-cart{
+  .badge{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: -6px;
+    top:-5px;
+  }
+}
+
+@media (min-width: 768px){
+  .header .navbar-nav{
+    .nav-link{
+      color: $secondary;
+      background-color: transparent;
+    }
+  }
+}
